@@ -15,7 +15,6 @@ function defaultTask() {
 
 exports.less = defaultTask
 
-
 exports.watch = function () {
     gulp.watch('./src/styles/*.less', gulp.series('less'));
 };
